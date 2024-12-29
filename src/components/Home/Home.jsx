@@ -48,7 +48,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://i.ibb.co/2M7rtLk/Remote1.png"
+                src="src/components/Home/photo-1649180543887-158357417159.jpeg"
                 alt="Project 1"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
@@ -88,8 +88,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://media.licdn.com/dms/image/v2/D562DAQHTUCi7pDVVpg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1725176437493?e=1726520400&v=beta&t=rHS8SPfr8fqBq673RWP4REzlSzTO6UGJdiPndU8NL2I"
-                alt="Real-Time User Tracker"
+                src="src/components/Home/real-time-map.png"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
               <h3 className="text-2xl font-semibold mb-2">
@@ -110,6 +109,93 @@ export default function Home() {
               <div className="mt-4">
                 <a
                   href="https://github.com/Madan2468/RealTime-user-Tracker-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <img
+                    src="https://avatars.githubusercontent.com/u/9919?v=4"
+                    alt="GitHub Logo"
+                    className="w-8 h-8 rounded-full"
+                  />
+                </a>
+              </div>
+            </div>
+            {/* New Competitive Coding Leaderboard Project */}
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInUp"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="src/components/Home/Screenshot 2024-12-21 at 9.42.47 PM.png"
+                alt="Competitive Coding Leaderboard"
+                className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
+              />
+              <h3 className="text-2xl font-semibold mb-2">
+                Competitive Coding Leaderboard
+              </h3>
+              <p>
+                Track your progress across multiple platforms in one place,
+                compare your rankings, and stay motivated to improve.
+              </p>
+              <div className="text-lg font-semibold text-green-500 mt-2">
+                200+ Unique Visitors
+              </div>
+              <a
+                href="https://competitive-coding-leaderboard.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-500 hover:text-orange-400 mt-4 inline-block"
+              >
+                Visit Website
+              </a>
+              <div className="mt-4">
+                <a
+                  href="https://github.com/Madan2468/Competitve-Coding-leaderboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <img
+                    src="https://avatars.githubusercontent.com/u/9919?v=4"
+                    alt="GitHub Logo"
+                    className="w-8 h-8 rounded-full"
+                  />
+                </a>
+              </div>
+            </div>
+            {/* New Next-Generation Smart Waste Bins Project */}
+            <div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInUp"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <img
+                src="src/components/Home/Screenshot 2024-12-23 at 11.06.57 PM.png"
+                alt="Next-Generation Smart Waste Bins"
+                className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
+              />
+              <h3 className="text-2xl font-semibold mb-2">
+                NEXT-GENERATION SMART WASTE BINS: IoT-BASED WASTE MONITORING AND
+                COLLECTION OPTIMIZATION
+              </h3>
+              <p>
+                This project addresses urban waste management challenges like
+                overflowing bins and high operational costs using IoT principles
+                and optimization algorithms.
+              </p>
+              <a
+                href="https://next-generation-smart-waste-bins-frontend.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-orange-500 hover:text-orange-400 mt-4 inline-block"
+              >
+                Visit Website
+              </a>
+              <div className="mt-4">
+                <a
+                  href="https://github.com/Madan2468/NEXT-GENERATION-SMART-WASTE-BINS"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block"

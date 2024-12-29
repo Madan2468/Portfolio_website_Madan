@@ -13,7 +13,7 @@ export default function About() {
       <header className="flex flex-col md:flex-row items-center justify-between mt-10 animate__animated animate__fadeIn">
         <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
           <img
-            src="https://media.licdn.com/dms/image/v2/D5603AQG8n5MliEYSWQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725038080640?e=1731542400&v=beta&t=HcY6l7bBuqogHHlX8vtIAk_A2lQAmvXdrX3Cu9owi4A" // Replace with your photo URL
+            src="src/components/About/IMG_6968.JPG" // Replace with your photo URL
             alt="Profile"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg transform transition-transform duration-500 hover:scale-110"
           />
@@ -45,6 +45,11 @@ export default function About() {
             <li>Multer</li>
             <li>Postman API</li>
             <li>FFmpeg</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>shadcn/ui</li>
+            <li>figma</li>
           </ul>
         </div>
       </header>
