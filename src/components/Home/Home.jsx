@@ -4,7 +4,9 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Photo1 from "./photo-1649180543887-158357417159.jpeg";
-
+import photo2 from "./Realtime.jpeg";
+import photo3 from "./competitvecoding.jpeg";
+import photo4 from "./smart-bin.png";
 export default function Home() {
   AOS.init(); // Initialize AOS
 
@@ -89,7 +91,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="src/components/Home/real-time-map.png"
+                src={photo2}
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
               <h3 className="text-2xl font-semibold mb-2">
@@ -129,7 +131,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="src/components/Home/Screenshot 2024-12-21 at 9.42.47 PM.png"
+                src={photo3}
                 alt="Competitive Coding Leaderboard"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
@@ -173,7 +175,7 @@ export default function Home() {
               data-aos-duration="1000"
             >
               <img
-                src="https://github.com/Madan2468/Portfolio_website_Madan/blob/368ff9623ccacd83227c9e20ecd928d8362c6609/src/components/Home/Screenshot%202024-12-23%20at%2011.06.57%E2%80%AFPM.png"
+                src={photo4}
                 alt="Next-Generation Smart Waste Bins"
                 className="w-full h-48 object-cover rounded-lg mb-4 transform transition-transform duration-300 hover:scale-105"
               />
