@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import photo1 from "./madan.jpeg";
 
 export default function About() {
   AOS.init(); // Initialize AOS
@@ -13,7 +14,7 @@ export default function About() {
       <header className="flex flex-col md:flex-row items-center justify-between mt-10 animate__animated animate__fadeIn">
         <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
           <img
-            src="src/components/About/IMG_6968.JPG" // Replace with your photo URL
+            src={photo1} // Replace with your photo URL
             alt="Profile"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg transform transition-transform duration-500 hover:scale-110"
           />
