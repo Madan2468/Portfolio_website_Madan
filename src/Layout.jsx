@@ -12,7 +12,7 @@ function Layout() {
       <Outlet />
       <Footer />
       <Analytics /> {/* This component will track analytics for all pages */}
-      <SpeedInsights />{" "}
+      <SpeedInsights />
       {/* This component will track speed insights for all pages */}
     </>
   );
