@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/react"; // Add the import statement for SpeedInsights
+import { SpeedInsights } from "@vercel/speed-insights/react"; // Import SpeedInsights
 
 function Layout() {
   return (
@@ -11,9 +11,8 @@ function Layout() {
       <Header />
       <Outlet />
       <Footer />
-      <Analytics /> {/* This component will track analytics for all pages */}
-      <SpeedInsights />
-      {/* This component will track speed insights for all pages */}
+      <Analytics /> {/* Tracks analytics for all pages */}
+      <SpeedInsights /> {/* Tracks speed insights for all pages */}
     </>
   );
 }
