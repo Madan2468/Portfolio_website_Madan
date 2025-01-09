@@ -321,6 +321,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* View My Resume Section */}
+      <section className="mt-24 w-full px-4">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2
+            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            View My Resume
+          </h2>
+          <a
+            href="https://drive.google.com/file/d/15UcavVgel5S1QLqk2wKzz5pKJY6a5UzV/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-10 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block"
+          >
+            View Resume
+          </a>
+        </div>
+      </section>
+
       {/* Profile Visit Section */}
       <section className="mt-24 w-full px-4 relative">
         <div
