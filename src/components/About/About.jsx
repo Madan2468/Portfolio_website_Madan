@@ -71,10 +71,10 @@ export default function About() {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <h3 className="text-2xl font-semibold mb-2">Hackathons</h3>
+              <h3 className="text-2xl font-semibold mb-2">OpenSource</h3>
               <p>
-                Participated in various hackathons, demonstrating my
-                problem-solving skills and innovative approach.
+                Sucessfully completed Hacktoberfest 2024 with 5 pull and merge
+                requests.
               </p>
             </div>
             <div
@@ -82,12 +82,10 @@ export default function About() {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <h3 className="text-2xl font-semibold mb-2">
-                Cinematics Competition
-              </h3>
+              <h3 className="text-2xl font-semibold mb-2">Problem Solving</h3>
               <p>
-                Won the first prize at a cinematics competition, showcasing my
-                creativity and technical expertise.
+                Solved more than 100+ problems across various competitve coding
+                platofroms (Leetcode, Codechef, Codeforces, etc.)
               </p>
             </div>
           </div>

@@ -332,7 +332,7 @@ export default function Home() {
             View My Resume
           </h2>
           <a
-            href="https://drive.google.com/file/d/15UcavVgel5S1QLqk2wKzz5pKJY6a5UzV/view?usp=share_link"
+            href="https://drive.google.com/file/d/1MVnK1_4ISJEjVWdAKmMPD5bkqzb2S8Ce/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-10 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block"
