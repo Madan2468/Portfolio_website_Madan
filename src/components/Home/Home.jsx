@@ -7,6 +7,9 @@ import Photo1 from "./photo-1649180543887-158357417159.jpeg";
 import photo2 from "./Realtime.jpeg";
 import photo3 from "./competitvecoding.jpeg";
 import photo4 from "./smart-bin.png";
+import { motion } from "framer-motion";
+import { useState } from "react";
+
 export default function Home() {
   AOS.init(); // Initialize AOS
 
@@ -215,65 +218,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills Section */}
-      <section className="mt-24 w-full px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
-          <div
-            className="animate__animated animate__fadeInUp animate__delay-1s"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <h2 className="text-3xl font-semibold mb-3">
-              Full Stack Development
-            </h2>
-            <p>
-              Crafting seamless, responsive web experiences using the MERN
-              stack. I transform complex ideas into user-friendly, functional
-              applications.
-            </p>
-          </div>
-          <div
-            className="animate__animated animate__fadeInUp animate__delay-2s"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <h2 className="text-3xl font-semibold mb-3">Cinematography</h2>
-            <p>
-              Bringing stories to life with a keen eye for visual storytelling
-              and design. My cinematography skills enhance the user experience
-              and project aesthetics.
-            </p>
-          </div>
-          <div
-            className="animate__animated animate__fadeInUp animate__delay-3s"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <h2 className="text-3xl font-semibold mb-3">Trading & Analysis</h2>
-            <p>
-              Navigating the financial markets with precision, using analytical
-              skills to make informed trading decisions and transform challenges
-              into opportunities.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Experience Section */}
       <section className="mt-24 w-full px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h2
-            className="text-4xl font-bold mb-8 animate__animated animate__fadeIn"
-            data-aos="fade-up"
-            data-aos-duration="1000"
+          <motion.h2
+            className="text-4xl font-bold mb-8"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
           >
             Experience
-          </h2>
+          </motion.h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div
-              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInLeft"
-              data-aos="fade-right"
-              data-aos-duration="1000"
+            <motion.div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <h3 className="text-2xl font-semibold mb-2">
+                Full Stack Developer Intern
+              </h3>
+              <p className="text-orange-400">AdTask | Feb 2025 - Mar 2025</p>
+              <p className="mt-4">
+                Worked as a Full Stack Developer Intern, where I built
+                responsive, pixel-perfect UIs from Figma designs with smooth
+                animations and ensured compatibility across all screen sizes. I
+                integrated APIs with robust response handling, managed dynamic
+                forms, and optimized performance through efficient rendering
+                techniques, lazy loading, and clean code practices. I
+                collaborated closely with designers and developers to deliver
+                seamless user experiences and maintain design consistency.
+              </p>
+            </motion.div>
+
+            <motion.div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
             >
               <h3 className="text-2xl font-semibold mb-2">
                 Software Developer Intern
@@ -285,11 +268,13 @@ export default function Home() {
                 collaborating with cross-functional teams to deliver impactful
                 solutions.
               </p>
-            </div>
-            <div
-              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInRight"
-              data-aos="fade-left"
-              data-aos-duration="1000"
+            </motion.div>
+
+            <motion.div
+              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
             >
               <h3 className="text-2xl font-semibold mb-2">
                 Cinematography Head
@@ -301,26 +286,10 @@ export default function Home() {
                 creative projects at the Creativity and Innovation Cell in
                 Electronics.
               </p>
-            </div>
-            <div
-              className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 animate__animated animate__fadeInLeft"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <h3 className="text-2xl font-semibold mb-2">Organising Member</h3>
-              <p className="text-orange-400">
-                Esports University Conclave | April 2024 - May 2024
-              </p>
-              <p className="mt-4">
-                Played a key role in organizing the Esports University Conclave,
-                handling logistics, event coordination, and ensuring a seamless
-                experience for participants.
-              </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
-
       {/* View My Resume Section */}
       <section className="mt-24 w-full px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -332,7 +301,7 @@ export default function Home() {
             View My Resume
           </h2>
           <a
-            href="https://drive.google.com/file/d/1MVnK1_4ISJEjVWdAKmMPD5bkqzb2S8Ce/view?usp=share_link"
+            href="https://drive.google.com/file/d/1v6rBxRN9S6wSepuU2QJhx6tPmH0npakO/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-orange-600 hover:bg-orange-500 text-white text-lg font-semibold py-3 px-8 mt-10 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block"
